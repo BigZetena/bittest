@@ -5,14 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ООО "БитКэмп"</title>
     <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://lidrekon.ru/slep/js/uhpv-full.min.js" defer></script>
   </head>
   <body>
+    <style>
+      @media screen and (max-width: 980px) {
+        #glazd {
+          position: absolute;
+
+          top: 10px;
+
+          right: 100px;
+
+          z-index: 99999;
+
+          width: 50px;
+        }
+      }
+
+      @media screen and (min-width: 980px) {
+        #glazd {
+          position: absolute;
+
+          top: 20px;
+
+          left: 50px;
+
+          z-index: 99999;
+
+          width: 50px;
+        }
+      }
+    </style>
     <div class="container">
       <h1>ООО "БитКэмп"</h1>
       <p><strong>ИНН:</strong> 7838121334</p>
       <p><strong>ОГРН:</strong> 1247800024592</p>
       <p><strong>Телефон генерального директора:</strong> 89819466408</p>
       <p><strong>г. Санкт-Петербург</strong></p>
+      <a id="specialButton" href="#"
+        ><img
+          src="https://lidrekon.ru/images/special.png"
+          id="glazd"
+          alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ"
+          title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ"
+      /></a>
 
       <div class="documents">
         <h3>Уставные документы:</h3>
