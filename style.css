@@ -10,7 +10,13 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
-
+* {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
 /* Основной контейнер, содержащий текст */
 .container {
   max-width: 600px; /* Ограничим ширину для лучшего восприятия текста */
